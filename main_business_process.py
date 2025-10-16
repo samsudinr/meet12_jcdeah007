@@ -5,6 +5,7 @@ def main():
         'id': [1,2,3],
         'name': ['budi', 'roni', 'dina']
     })
-    print(data)
+    
+    return data
 
 main()
