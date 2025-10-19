@@ -1,5 +1,7 @@
 # Web Scraping to CSV & Postgres Local
 
+Submission for Tugas_meet12_JCDEAH007
+
 This project scrapes gold prices from https://harga-emas.org, cleans, saves as CSV, and loads dataframe to local PostgresSQL Database. 
 
 This project uses Python, requests, beautifulsoup4, pandas, psycopg2
