@@ -38,7 +38,7 @@ class WebScraper(ABC):
 
                 self.rows = self.rows[:-1] #lose strings/table text
 
-                cleaned_rows = [[int(cell.replace(".","").replace("Rp","")) for cell in row] for row in self.rows]
+                cleaned_rows = [[int(cell.replace(".","")) for cell in row] for row in self.rows]
                 self.rows = cleaned_rows
 
             except Exception as e:
