@@ -40,12 +40,12 @@ Image of the folder after adding:
     git add .
 ```
 - with using "add . " command, this will give instruction to add all subfolder and files in the folder.
-  10. Git commit
+10. Git commit
 ```bash
     git commit -m "First commit in brach adnan"
 ```
 - This will preparing file that will be pushed to the repo with the message "First commit in brach adnan"
-  11. git push to branch
+11. git push to branch
 ```bash
     git push -u origin adnan
 ```
