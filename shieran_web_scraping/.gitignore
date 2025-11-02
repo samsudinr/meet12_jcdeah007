@@ -1,0 +1,13 @@
+#database config
+helper/db_config.py
+
+#docker-compose file
+helper/docker-compose.yaml
+
+#__pycache__ directory
+__pycache__/
+helper/__pycache__/
+main_process/__pycache__/
+
+#pgdata directory
+pgdata/

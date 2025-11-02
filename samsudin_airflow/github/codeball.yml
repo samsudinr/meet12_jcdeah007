@@ -1,0 +1,19 @@
+review:
+  on:
+    - pull_request_opened
+    - pull_request_updated
+
+comments:
+  enabled: true          
+  summarize: true         
+  detailed: true         
+
+
+rules:
+  require_review_approval: true  
+  min_confidence: 0.7            
+
+# Integrasi opsional
+labels:
+  bug: ["bug", "fix", "error"]
+  feature: ["feature", "enhancement"]
