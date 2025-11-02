@@ -1,0 +1,10 @@
+# Jangan upload hasil ETL
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+output/
+data/
+*.csv
+*.json
+*.log
