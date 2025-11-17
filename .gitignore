@@ -1,9 +1,10 @@
-
-# Berisi kredentials yang tidak boleh di expose
-creds/
-
-# berisi file testing
-test.py
-
-# creds 
-.env
+# Jangan upload hasil ETL
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+output/
+data/
+*.csv
+*.json
+*.log

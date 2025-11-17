@@ -1,0 +1,9 @@
+
+# Berisi kredentials yang tidak boleh di expose
+creds/
+
+# berisi file testing
+test.py
+
+# creds 
+.env
